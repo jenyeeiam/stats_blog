@@ -6,7 +6,7 @@
 title: Softball Historian
 email:
 description: I am not a data scientist nor do I play one on TV, please help me.
-url: # the base hostname & protocol for your site
+url: https://softballstats.netlify.app/
 keywords: ["blog", "jekyll"]
 
 #
