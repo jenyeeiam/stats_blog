@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Sample Link Post"
+title: "Does Defense win Championships?"
 excerpt: "Try click on the link icon."
-categories: [link post]
-link: http://renyuanz.github.io
+categories: [pitching hitting]
+link:
 share: true
 ---
 

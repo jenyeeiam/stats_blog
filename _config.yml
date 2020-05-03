@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: Softball Historian
 email:
-description: A simple and awesome blog theme powered by jekyll.
+description: I am not a data scientist nor do I play one on TV, please help me.
 url: # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
 
@@ -33,10 +33,10 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  name: Jen Yee
+  avatar: logo.png
+  job: "I do a lot of things"
+  bio: "I am not a data scientist nor do I play one on TV."
   email:
   disqus-shortname:
   twitter: #username
