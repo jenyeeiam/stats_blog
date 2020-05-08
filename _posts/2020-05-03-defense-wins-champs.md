@@ -13,7 +13,7 @@ I'd like to answer the following questions, do the best teams that come out of t
 
 #### Data
 
-For this project, I pared the data down to only include Power Five teams (SEC, PAC12, ACC, BIG12, BIG10). Since softball has been a Division 1 sport, only Cal State Fullerton has won the WCWS in 1986 as a team outside of the Power Five as we know it today. So with the intention of leveling the playing field and smoothing out variance, I'm first assuming that these teams have a similar strength of schedule and play a similar number of games. My second assumption is that these teams are similar in strength overall. This second assumption is a bit of a stretch, and a better way to do it would be to take the top 50 teams as ranked by the NFCA. But unfortunately this data does not exist for past years that I know of. I also realize the Power Five have gone through many realignments throughout the years and I am observing the conferences as they are today. Still, with these assumptions I am hoping this makes the analysis as much apples to apples as possible given the circumstances and data available.
+For this project, I pared the data down to only include Power Five teams (SEC, PAC12, ACC, BIG12, BIG10). Since softball has been a Division 1 sport, only Cal State Fullerton has won the WCWS in 1986 as a team outside of the Power Five as we know it today. So with the intention of levelling the playing field and smoothing out variance, I'm first assuming that these teams have a similar strength of schedule and play a similar number of games. My second assumption is that these teams are similar in strength overall. This second assumption is a bit of a stretch, and a better way to do it would be to take the top 50 teams as ranked by the NFCA. But unfortunately this data does not exist for past years that I know of. I also realize the Power Five have gone through many realignments throughout the years and I am observing the conferences as they are today. Still, with these assumptions I am hoping this makes the analysis as much apples to apples as possible given the circumstances and data available.
 
 #### Equations
 
@@ -60,14 +60,14 @@ Because I could, I overlayed the individual pitchers' WHIP from the WCWS winner 
 <i class="fa fa-circle" style="color: rgb(235, 174, 170)"></i> Winner
 <i class="fa fa-circle" style="color: rgb(149, 181, 208)"></i> Runner Up
 ![whip_graph_2](../../img/whip2.png)
-*WHIP over time with overlayed scatter plot. The size of the points represent the number of innings pitched by that pitcher.*
+*WHIP over time with overlaid scatter plot. The size of the points represent the number of innings pitched by that pitcher.*
 
 To cross-check I've included a similar plot to show runs allowed per inning. Not surprisingly, this one shows similar trends to WHIP.
 
 <i class="fa fa-circle" style="color: rgb(235, 174, 170)"></i> Winner
 <i class="fa fa-circle" style="color: rgb(149, 181, 208)"></i> Runner Up
 ![ip_graph_1](../../img/runs_per_ip.png)
-*Runs per inning over time with overlayed scatter plot. The size of the points represent the number of innings pitched by that pitcher.*
+*Runs per inning over time with overlaid scatter plot. The size of the points represent the number of innings pitched by that pitcher.*
 
 So what about hitting? Is there more to the story? The figure below shows OPS over time and compares the best two teams.
 
