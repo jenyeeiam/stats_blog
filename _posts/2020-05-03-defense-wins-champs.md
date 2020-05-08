@@ -27,7 +27,7 @@ The second stat I used is runs allowed per inning. I decided to go with runs ove
 
 For completeness, I also looked at hitting. And although I didn't see anything groundbreaking with any of the stats I tried, I will show some results for OPS, or on-base plus slugging.
 
-> On Base Percentage (OBP) + Slugging Percentage (Slg %)
+> OPS = On Base Percentage (OBP) + Slugging Percentage (Slg %)
 
 #### Observations
 
