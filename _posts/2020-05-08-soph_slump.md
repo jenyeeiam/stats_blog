@@ -2,19 +2,24 @@
 layout: post
 title: "Sophomore Slump Busters"
 categories: [hitting]
-excerpt: "I felt this pain 😭. But, softball players are crazy, so I must have been crazy"
+excerpt: "I felt this pain 😭. But, softball players are crazy, so I must have been crazy."
 link:
 share: true
 ---
 
-This is one of those iconic sports clichés. While I do love a good colloquial saying, I'm interested in knowing whether this saying actually holds any water. Disclaimer #1, I don't have defensive stats! All I have to work with is pitching, so that will have to do for now. However, my hypothesis is that pitching stats should be sufficient to draw some conclusions overall. Pitchers are the most important defender, they touch the ball on every single play for half the game and play a major influence in the outcome of the game.
+Urban Dictionary defines a [sophomore slump][ud_site] as a disappointing follow up to a successful first recorded album. We've all been there, that feeling of inadequacy, not feeling like you're living to your fullest potential. Our perception of ourselves is the worst! No matter what, we just can't help comparing our success or failures to our previous selves.
 
-I'd like to answer the following questions, do the best teams that come out of the WCWS have better pitching than all the other teams? What's the most important metric? Have we been saying "Defense wins championships" for nothing this whole time?
+I'd like to find out whether this sophomore slump thing is all in our heads.
 
 #### Data
 
+I will be focusing on hitting for this project. I filtered the dataset to only include players with the classes of `So.` and `Fr.`. I created two dataframes, one for sophomores and one for freshman, then I did an inner join on the `Name` and `School` to eliminate entries that were not included in both dataframes. Then, I merged the dataframes back together subtracted the freshman stats from the sophomore stats.
+
+I will be observing this data by a histogram. I want to see what the distribution of this change (Δ) in OPS and wOBA across Division I schools.
 
 #### Equations
+
+
 
 
 #### Observations
@@ -23,3 +28,4 @@ I'd like to answer the following questions, do the best teams that come out of t
 #### Conclusion
 
 <!--more-->
+[ud_site]: https://www.urbandictionary.com/define.php?term=sophomore%20slump
