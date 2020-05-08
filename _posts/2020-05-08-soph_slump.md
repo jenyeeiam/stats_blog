@@ -19,11 +19,16 @@ I will be observing this data by a histogram. I want to see what the distributio
 
 #### Equations
 
+I used OPS as the metric to compare players. OPS is on base percentage plus slugging.
 
-
+> OPS = On Base Percentage (OBP) + Slugging Percentage (Slg %)
 
 #### Observations
 
+The figure below shows the distribution of the change in ops from freshman to sophomore year. Personally I think these color-coded bars are not only helpful, but beautiful as well. 
+
+![ops1](../../img/ops_hist.png)
+*Change in OPS from freshman to sophomore year across all NCAA D1 athletes*
 
 #### Conclusion
 
