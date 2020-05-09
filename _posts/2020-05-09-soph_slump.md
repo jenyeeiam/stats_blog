@@ -2,7 +2,7 @@
 layout: post
 title: "Sophomore Slump Busters"
 categories: [hitting]
-excerpt: "I felt this pain 😭. But, softball players are crazy, so I must have been crazy."
+excerpt: "This pain 😭"
 link:
 share: true
 ---
