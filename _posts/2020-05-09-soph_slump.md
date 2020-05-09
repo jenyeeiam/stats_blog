@@ -11,7 +11,7 @@ Urban Dictionary defines the [sophomore slump][ud_site] as a disappointing follo
 
 #### Data
 
-I will be focusing on hitting for this project. I filtered the dataset to only include players in the `So.` and `Fr.` class. I created two dataframes, one for sophomores and one for freshman, then I did an inner join on the `Name` and `School` to eliminate entries that were not shared by both dataframes. Sometimes players play their freshman and sophomore seasons at different schools, so I will not be counting those cases. Then, I merged the dataframes back together subtracted the freshman stats from the sophomore stats. This was the first time I learned how to merge dataframes like an sql join so I thought I'd share that snippet.
+I will be focusing on hitting for this project. I filtered the dataset to only include players in the `So.` and `Fr.` class. I created two dataframes, one for sophomores and one for freshman, then I did an inner join on the `Name` and `School` to eliminate entries that were not shared by both dataframes. Sometimes players play their freshman and sophomore seasons at different schools, so I will not be counting those cases. And lastly, I subtracted the freshman stats from the sophomore stats. This was the first time I learned how to merge dataframes like an sql join so I thought I'd share that snippet.
 
 {% highlight python %}
 so_ops = df[(df['Class'] == 'So.') & (df['OPS'].notna())][['Name', 'School', 'OPS']]
