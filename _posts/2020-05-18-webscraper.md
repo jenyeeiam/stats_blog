@@ -15,7 +15,8 @@ Up until this point, I've been able to scrape the NCAA stats from 2002 to 2018. 
 
 I tried to make this video as simple as possible, but there are cases where knowing some HTML would be helpful. And of course this isn't a live coding session, so I am referring to a file I've already written. But I hope it can be helpful nonetheless.
 
-[![tutorial_video](http://img.youtube.com/vi/x11-T0bSWcM/0.jpg)](http://www.youtube.com/watch?v=x11-T0bSWcM "Web Scraping Tutorial")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x11-T0bSWcM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 [pdf_gist]: https://gist.github.com/jenyeeiam/034c492fee97aec768f59f67a0144640
